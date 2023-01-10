@@ -1,3 +1,198 @@
 .flex {
-    display: flex;
+  display: flex;
+}
+
+:root {
+  --black: #272a31;
+  --orange: #ec5242;
+  --grey: #d3d3d3;
+  --dark-grey: #414246;
+  --white: #f9f9f9;
+}
+
+body {
+  color: var(--grey);
+  
+  background-image: url(gondor.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  flex-direction: column;
+   width: 90%;
+    height: 90%;
+}
+
+h1 {
+  color: var(--orange);
+   width: 90%;
+    height: 90%;
+}
+
+.secondTitle {
+  color: var(--orange);
+   width: 90%;
+    height: 90%;
+}
+
+.index {
+  flex-direction: column;
+  color: var(--dark-grey);
+   width: 90%;
+    height: 90%;
+}
+
+main {
+     width: 90%;
+    height: 90%;
+}
+
+.description {
+border-color: #ec5242;
+border-radius: 5ch;
+ width: 90%;
+    height: 90%;
+}
+
+.program {
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--black);
+  background-image: url(programBgImage.png);
+   width: 90%;
+    height: 90%;
+}
+.mainProgram {
+color: var(--white);
+ width: 90%;
+    height: 90%;
+}
+
+.schedule {
+    flex-direction: column;
+    list-style-type: none;
+    margin-left: -40px;
+   width: 90%;
+    height: 90%;
+}
+
+.scheduleItems {
+    background-color: var(--dark-grey);
+    flex-direction: row;
+    margin: 5px; 
+    opacity: 0.5;
+    align-content: center;
+     width: 90%;
+    height: 90%;
+}
+
+.scheduleTitle {
+    justify-content: flex-start;
+    color:var(--orange);
+    flex-direction: row;
+    align-items: center;
+     width: 90%;
+    height: 90%;
+}
+
+
+.scheduleIndex {
+    color: white;
+    margin-left: 5px;
+     width: 90%;
+    height: 90%;
+}
+
+.joinButton {
+  background-color:var(--orange);
+  color: var(--white);
+  margin-bottom: 10px;
+   width: 90%;
+    height: 90%;
+}
+
+.featuredSpeakers {
+      justify-content: center;
+}
+
+.featuredTitle {
+    color: var(--dark-grey);
+}
+
+/* about section */
+.headerAbout {
+    flex-direction: column;
+    align-items: center;
+     width: 90%;
+    height: 90%;
+}
+
+.indexAbout {
+    align-items: center;
+    flex-direction: column;
+    color: var(--dark-grey);
+     width: 90%;
+    height: 90%;
+}
+
+.email {
+    font-weight: bold;
+     width: 90%;
+    height: 90%;
+}
+
+.commonLogo {
+    flex-direction: column;
+    align-items: center;
+    color:var(--dark-grey);
+     width: 90%;
+    height: 90%;
+}
+
+.mellonLogo {
+    border:#272a31 10px;
+    width: 90%;
+    height: 90%;
+}
+
+.pastEvents {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color:var(--dark-grey);
+    width: 90%;
+    height: 90%;
+}
+
+.pastEventsTitle {
+width: 90%;
+    height: 90%;
+    align-items: center;
+}
+
+.pastEventsDescription {
+    margin: 10px;
+    width: 90%;
+    height: 90%;
+}
+
+.golcuk {
+    background-image: url(golcuk.jpeg);
+    flex-direction: column;
+    align-content: center;
+}
+
+.zonguldak {
+    background-image: url(zonguldak.jpeg);
+    flex-direction: column;
+    align-content: center;
+}
+
+.eventTitle {
+    color: var(--orange);
+}
+
+.eventDescription {
+    color: var(--orange);
 }
