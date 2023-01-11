@@ -8,6 +8,35 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <div id="popUp" class="popUp">
+        <ul id="popUpItems" class="popUpItems flex">
+           <a href="#about">
+             <li class="popUtItem">
+            About
+            </li>
+        </a>
+        <a href="#program">
+            <li class="popUtItem">
+           Program
+           </li>
+       </a>
+       <a href="#join">
+        <li class="popUtItem">
+       Join
+       </li>
+   </a>
+   <a href="#sponsors">
+    <li class="popUtItem">
+   Sponsor
+   </li>
+</a>
+<a href="#news">
+    <li class="popUtItem">
+   News
+   </li>
+</a>
+        </ul>
+    </div>
     <div class="hamburger">
         <img src="icons8-hamburger-32.png" class="hamburgericon" id="hamburgericon" alt="hamburgericon"> 
     </div>
@@ -30,7 +59,7 @@
 @Taksim Square of İstanbul in Turkey
         </p>
     </div>
-    <div class="program flex">
+    <div class="program flex" id="program">
         <h2 class="mainProgram">
             Main Program
         </h2>
@@ -73,7 +102,7 @@
             </p>
         </li>
         </ul>
-        <button class="joinButton">
+        <button class="joinButton" id="join">
             Join!
         </button>
     </div>

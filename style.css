@@ -265,3 +265,19 @@ width: 90%;
     margin: 10px;
     font-size: 10px;
 }
+
+/* popUp */
+.popUpItems {
+    flex-direction: column;    
+    list-style-type: none;
+}
+
+.popItem {
+    color: white;
+}
+
+.popUp {
+    background-color: rgba(236, 83, 66, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
