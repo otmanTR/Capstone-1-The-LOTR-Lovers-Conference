@@ -182,6 +182,10 @@ width: 90%;
     height: 90%;
 }
 
+.eventImage {
+    flex-direction: column;
+}
+
 .golcuk {
     background-image: url(golcuk.jpeg);
     flex-direction: column;
@@ -225,6 +229,7 @@ width: 90%;
     background-color: var(--dark-grey);
     margin-top: 20px;
     width: 100%;
+    display: flex;
 }
 
 .partnerTitle {
@@ -247,21 +252,23 @@ width: 90%;
 }
 
 .company {
-    margin-top: 10px;
+    margin-top: 30px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
 .companyImage {
-    width: 30%;
-    height: 30%;
-    margin-left: 10px;
+    width: 20%;
+    height: 20%;
+    margin-left: 50px;
 }
 .companyIndex {
-    color: var(--grey);
+    color: var(--dark-grey);
     margin: 10px;
     font-size: 10px;
+    margin-right: 150px;
+    width: 20%;
 }
 
 /* popUp */
@@ -309,6 +316,7 @@ width: 90%;
 .partnerHome {display: none;}
 
 /* ------------Desktop Version----------- */
+/* home page */
 
 @media screen and (min-width: 768px) {
     .hamburger {
@@ -404,6 +412,7 @@ align-items: center;
 
    .partnersList {
 align-items: center;
+justify-content: space-evenly;
    }
 
    .partnerImage {
@@ -429,5 +438,52 @@ align-items: center;
     color: #414246;
     margin-right: 250px;
     font-size: 15px;
+   }
+
+   /* about page */
+   .indexAbout {
+    width: 80%;
+   }
+
+   .eventImage {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+   }
+
+   .golcuk {
+    margin-right: 10px;
+    margin-top: 10px;
+   
+
+   }
+
+   .zonguldak {
+    
+    
+   }
+
+   .imageLayout {
+    height: 100px;
+    width: 300px;
+   }
+
+   .partner {
+    display: none;
+   }
+
+   .company {
+    background-color: #272a31;
+    margin-top: 80px;
+   }
+
+.companyImage {
+    width:  10%;
+    height: 10%;
+}
+
+   .companyIndex {
+    color: white;
+    margin-left: 30px;
    }
 }
