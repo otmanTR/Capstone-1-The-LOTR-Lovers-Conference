@@ -7,8 +7,8 @@
     <title>The LOTR Lovers Conference</title>
     <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    <div id="popUp" class="popUp">
+<headerline id="popUp">
+    <div class="popUp flex">
         <ul id="popUpItems" class="popUpItems flex">
            <a href="#about">
              <li class="popUtItem">
@@ -36,9 +36,37 @@
    </li>
 </a>
         </ul>
+        <img src="Icon - Cancel.png" id="popUpCencel" class="popUpCencel">
     </div>
+</headerline>
+
+<body>
     <div class="hamburger">
         <img src="icons8-hamburger-32.png" class="hamburgericon" id="hamburgericon" alt="hamburgericon"> 
+    </div>
+    <div class="navigationBar">
+        <img class="navigationLogo" src="mellonLogo.png">
+        <ul class="navigationItems flex">
+           <a href="#about"> <li class="navigationItem">
+                About
+            </li></a>
+           <a href="#program"> <li class="navigationItem">
+                Program
+            </li></a>
+            <a href="#join"> <li class="navigationItem">
+                Join
+            </li></a>
+           <a href="#sponsor">
+           <a href="#sponsor"> <li class="navigationItem">
+                Sponsor
+            </li>
+        </a>
+        </a>
+           <a href="#news"> <li class="navigationItem">
+                News
+            </li>
+        </a>
+        </ul>
     </div>
 <header class="header flex">
     <h1 class="mainTitle">
@@ -65,8 +93,8 @@
         </h2>
         <ul class="schedule flex">
             <li class="scheduleItems flex">
-                <img src="lecture-logo.png" class="openingImage">
-                <h3 class="scheduleTitle flex"> 
+                <img src="lecture-logo.png" class="scheduleItemImage">
+                <h3 class="scheduleTitle"> 
                     Opening
                  </h3> 
                  <p class="scheduleIndex">
@@ -74,8 +102,8 @@
                  </p>
         </li>
         <li class="scheduleItems flex">
-            <img src="exhibition-logo.png">
-            <h3 class="scheduleTitle flex"> 
+            <img src="exhibition-logo.png" class="scheduleItemImage">
+            <h3 class="scheduleTitle"> 
                 Video Shows
             </h3>
             <p class="scheduleIndex">
@@ -83,8 +111,8 @@
             </p>
         </li>
         <li class="scheduleItems flex">
-            <img src="workshop-logo.png">
-            <h3 class="scheduleTitle flex">
+            <img src="workshop-logo.png" class="scheduleItemImage">
+            <h3 class="scheduleTitle">
                 
                 Workshops
             </h2>
@@ -93,8 +121,8 @@
             </p>
         </li>
         <li class="scheduleItems flex">
-            <img src="network-logo.png">
-            <h3 class="scheduleTitle flex"> 
+            <img src="network-logo.png" class="scheduleItemImage">
+            <h3 class="scheduleTitle"> 
                 Consers
             </h3>
             <p class="scheduleIndex">
@@ -105,6 +133,7 @@
         <button class="joinButton" id="join">
             Join!
         </button>
+<a href="#program"> <p class="wholeProgram">SEE THE WHOLE PROGRAM</p></a>
     </div>
    
     <div class="featuredSpeakers flex">
@@ -125,6 +154,20 @@
         </p>
     </div>
 </div>
+
+    </div>
+    <div class="partnerHome" id="sponsors">
+        <h2 class="partnerTitle">
+            Partner
+        </h2>
+        <div class="partnersList flex">
+<img class="partnerImage" src="dost.png"><img class="partnerImage" src="reuters.png"><img class="partnerImage" src="hek.jpg"><img class="partnerImage" src="Warner_Bros._(2019)_logo.svg.png"><img class="partnerImage" src="simav-belediyesi-og.jpg">
+        </div>
+        
+    </div>
+    <div class="companyHome ">
+        <img class="companyImage" src="mellonLogo.png">
+<p class="companyIndex">2021 bp Organization Turkey. Some Rights Reserved.</p>
     </div>
 </main>
 <script src="index.js"></script>
