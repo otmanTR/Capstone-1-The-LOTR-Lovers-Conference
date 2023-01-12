@@ -278,7 +278,7 @@ width: 90%;
     background-repeat: no-repeat;
     flex-direction: row;
     justify-content: space-between;
-    display: none;
+    /* display: none; */
 }
 
 .popUpItems {

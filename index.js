@@ -15,8 +15,21 @@
 // }
 
 // popUp
-// document.getElementById('hamburgericon').onclick = () => {
-//   document.getElementById('popUpItems').classList.add('hamburgericon');
-//   document.getElementById('hamburgericon').classList.add('popUp');
-//   document.getElementById('popUpCencel').classListremove('popUp')
-// };
+const popUp = document.getElementById('popUP');
+const hamburger = document.querySelector('.hamburger');
+const popUpCancel = document.querySelector('.popUpCancel');
+
+hamburger.addEventListener('click', () => {
+  popUp.classList.remove('hidden');
+  popUp.style.display = 'flex';
+});
+
+function closePopUp() {
+  popUp.classList.add('hidden');
+  popUp.style.display = 'none';
+}
+
+const popUpItem = document.querySelector('.popUpItem');
+
+popUpItem.addEventListener('click', closePopUp);
+popUpCancel.addEventListener('click', closePopUp);
