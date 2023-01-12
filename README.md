@@ -105,7 +105,7 @@ Install this project with: Git bash
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
+#In the future, I will change layouts and make the design more professional. And I will change colors, black and green are more suitable for my project. I will connect all pages to each other.# 🔭 Future Features <a name="future-features"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
