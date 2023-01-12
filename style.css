@@ -16,42 +16,42 @@ body {
 
 .header {
   flex-direction: column;
-   width: 90%;
-    height: 90%;
-    background-image: url(gondor.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 90%;
+  height: 90%;
+  background-image: url(gondor.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
   color: var(--orange);
-   width: 90%;
-    height: 90%;
+  width: 90%;
+  height: 90%;
 }
 
 .secondTitle {
   color: var(--orange);
-   width: 90%;
-    height: 90%;
+  width: 90%;
+  height: 90%;
 }
 
 .index {
   flex-direction: column;
   color: var(--dark-grey);
-   width: 90%;
-    height: 90%;
+  width: 90%;
+  height: 90%;
 }
 
 main {
-     width: 90%;
-    height: 90%;
+  width: 90%;
+  height: 90%;
 }
 
 .description {
-border-color: #ec5242;
-border-radius: 5ch;
- width: 90%;
-    height: 90%;
+  border-color: #ec5242;
+  border-radius: 5ch;
+  width: 90%;
+  height: 90%;
 }
 
 .program {
@@ -59,267 +59,266 @@ border-radius: 5ch;
   align-items: center;
   background-color: var(--black);
   background-image: url(programBgImage.png);
-   width: 90%;
-    height: 90%;
+  width: 90%;
+  height: 90%;
 }
+
 .mainProgram {
-color: var(--white);
- width: 90%;
-    height: 90%;
-    text-align: center;
+  color: var(--white);
+  width: 90%;
+  height: 90%;
+  text-align: center;
 }
 
 .mainHr {
-    width: 20%;
-    color: var(--orange);
+  width: 20%;
+  color: var(--orange);
 }
 
 .schedule {
-    flex-direction: column;
-    list-style-type: none;
-    margin-left: -40px;
-   width: 90%;
-    height: 90%;
+  flex-direction: column;
+  list-style-type: none;
+  margin-left: -40px;
+  width: 90%;
+  height: 90%;
 }
 
 .scheduleItems {
-    background-color: rgba(11, 10, 10, 0.392);
-    flex-direction: row;
-    margin: 5px; 
-    align-content: center;
-     width: 90%;
-    height: 90%;
+  background-color: rgba(11, 10, 10, 0.392);
+  flex-direction: row;
+  margin: 5px;
+  align-content: center;
+  width: 90%;
+  height: 90%;
 }
 
 .scheduleTitle {
-    justify-content: flex-start;
-    color:var(--orange);
-     width: 90%;
-    height: 90%;
-    margin-top: 30px;
+  justify-content: flex-start;
+  color: var(--orange);
+  width: 90%;
+  height: 90%;
+  margin-top: 30px;
 }
 
-
 .scheduleIndex {
-    color: white;
-    margin-left: 5px;
-     width: 90%;
-    height: 90%;
+  color: white;
+  margin-left: 5px;
+  width: 90%;
+  height: 90%;
 }
 
 .joinButton {
-  background-color:var(--orange);
+  background-color: var(--orange);
   color: var(--white);
   margin-bottom: 10px;
-   width: 90%;
-    height: 90%;
+  width: 90%;
+  height: 90%;
 }
-
-
 
 /* about section */
 .headerAbout {
-    flex-direction: column;
-    align-items: center;
-     width: 90%;
-    height: 90%;
-    margin: auto;
-    text-align: center;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  text-align: center;
 }
 
 .indexAbout {
-    align-items: center;
-    flex-direction: column;
-    color: var(--dark-grey);
-     width: 90%;
-    height: 90%;
-    margin: auto;
-    text-align: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--dark-grey);
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  text-align: center;
 }
 
 .email {
-    font-weight: bold;
-     width: 90%;
-    height: 90%;
+  font-weight: bold;
+  width: 90%;
+  height: 90%;
 }
 
 .commonLogo {
-    flex-direction: column;
-    align-items: center;
-    color:var(--dark-grey);
-     width: 90%;
-    height: 90%;
-    margin: auto;
-    text-align: center;
+  flex-direction: column;
+  align-items: center;
+  color: var(--dark-grey);
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  text-align: center;
 }
 
 .mellonLogo {
-    border:#272a31 10px;
-    width: 90%;
-    height: 90%;
+  border: #272a31 10px;
+  width: 90%;
+  height: 90%;
 }
 
 .pastEvents {
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    color:var(--dark-grey);
-    width: 90%;
-    height: 90%;
-    margin: auto;
-    text-align: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  color: var(--dark-grey);
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  text-align: center;
 }
 
 .pastEventsTitle {
-width: 90%;
-    height: 90%;
-    align-items: center;
+  width: 90%;
+  height: 90%;
+  align-items: center;
 }
 
 .pastEventsDescription {
-    margin: 10px;
-    width: 90%;
-    height: 90%;
+  margin: 10px;
+  width: 90%;
+  height: 90%;
 }
 
 .eventImage {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .golcuk {
-    background-image: url(golcuk.jpeg);
-    flex-direction: column;
-    align-content: center;
-     background-size: contain;
-     width: 90%;
-     height: 90%;
+  background-image: url(golcuk.jpeg);
+  flex-direction: column;
+  align-content: center;
+  background-size: contain;
+  width: 90%;
+  height: 90%;
 }
 
 .zonguldak {
-    background-image: url(zonguldak.jpeg);
-    flex-direction: column;
-    align-content: center;
-    margin-top: 10px;
-    background-size: contain;
-    width: 90%;
-    height: 90%;
+  background-image: url(zonguldak.jpeg);
+  flex-direction: column;
+  align-content: center;
+  margin-top: 10px;
+  background-size: contain;
+  width: 90%;
+  height: 90%;
 }
 
 .imageLayout {
-    background-color: rgba(236, 83, 66, 0.58);
+  background-color: rgba(236, 83, 66, 0.58);
 }
 
 .eventTitle {
-    color: var(--white);
-
+  color: var(--white);
 }
 
 .eventDescription {
-    color: var(--white);
+  color: var(--white);
 }
 
 .eventIndex {
-    color: var(--white);
-   
+  color: var(--white);
 }
 
 .partner {
-    flex-direction: column;
-    text-align: center;
-    background-color: var(--dark-grey);
-    margin-top: 20px;
-    width: 100%;
-    display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--dark-grey);
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
 }
 
 .partnerTitle {
-    color: var(--white);
+  color: var(--white);
 }
 
 .partnersList {
-   margin: 10px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
+  margin: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
 }
 
 .partnerImage {
-    width: 60px;
-    height: 30px;
-    margin: 10px;
-    text-align: center;
+  width: 60px;
+  height: 30px;
+  margin: 10px;
+  text-align: center;
 }
 
 .company {
-    margin-top: 30px;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  margin-top: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .companyImage {
-    width: 20%;
-    height: 20%;
-    margin-left: 50px;
+  width: 20%;
+  height: 20%;
+  margin-left: 50px;
 }
+
 .companyIndex {
-    color: var(--dark-grey);
-    margin: 10px;
-    font-size: 10px;
-    margin-right: 150px;
-    width: 20%;
+  color: var(--dark-grey);
+  margin: 10px;
+  font-size: 10px;
+  margin-right: 150px;
+  width: 20%;
 }
 
 /* popUp */
 .popUp {
-    background-color: rgba(236, 83, 66, 1);
-    background-size: cover;
-    background-repeat: no-repeat;
-    flex-direction: row;
-    justify-content: space-between;
-    display: none;
+  background-color: rgba(236, 83, 66, 1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: row;
+  justify-content: space-between;
+  display: none;
 }
 
 .popUpItems {
-    flex-direction: column;    
-    list-style-type: none;
-    margin-top: 50px;
-    margin-left: 30px;
+  flex-direction: column;
+  list-style-type: none;
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
 .popItem {
-    color: white;
-    margin: 10px;
+  color: white;
+  margin: 10px;
 }
 
 .popUpCancel {
-    width: 20px;
-    height: 20px;
-    color: var(--white);
-    margin-right: 30px;
-    margin-top: 30px;
+  width: 20px;
+  height: 20px;
+  color: var(--white);
+  margin-right: 30px;
+  margin-top: 30px;
 }
 
 .navigationBar {
-    display: none;
+  display: none;
 }
 
 .wholeProgram {
-    display: none;
+  display: none;
 }
 
 .companyHome {
-    display: none;
+  display: none;
 }
 
-.partnerHome {display: none;}
+.partnerHome {
+  display: none;
+}
 
 /* speakers */
 
 .featuredSpeakers {
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .featuredTitle {
@@ -327,239 +326,215 @@ width: 90%;
   width: 40%;
 }
 
-.hrFeaturedTitle { 
-    width: 40%;
-    color: var(--orange);
+.hrFeaturedTitle {
+  width: 40%;
+  color: var(--orange);
 }
 
 .speakerArea {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .hrSpeaker {
-    width: 40px;
-    color: var(--orange);
+  width: 40px;
+  color: var(--orange);
 }
 
 .eachSpeaker {
-    flex-direction: row;
-    text-align: center;
-    margin: 10px;
+  flex-direction: row;
+  text-align: center;
+  margin: 10px;
 }
 
 .speakerInfo {
-    flex-direction: column;
-    text-align: center;
-    width: 40%;
+  flex-direction: column;
+  text-align: center;
+  width: 40%;
 }
 
 .speakerName {
-    font-size: larger;
-    color: var(--dark-grey);
+  font-size: larger;
+  color: var(--dark-grey);
 }
 
 .speakerTitle {
-    font-size: large;
-    color: var(--orange);
+  font-size: large;
+  color: var(--orange);
 }
 
 .speakerTopic {
-    font-size: medium;
-    color: var(--dark-grey);
+  font-size: medium;
+  color: var(--dark-grey);
 }
 
 .speakersImages {
-    width: 150px;
-    height: 200px;
+  width: 150px;
+  height: 200px;
 }
 
 /* ------------Desktop Version----------- */
-/* home page */
-
 @media screen and (min-width: 768px) {
-    .hamburger {
-        display: none;
-    }
-   
-    .navigationBar {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
+  .hamburger {
+    display: none;
+  }
 
-    .navigationLogo {
-        margin-left: 50px;
-        width: 10%;
-        height: 10%;
-    }
+  .navigationBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-    .navigationItems {
-        flex-direction: row;
-     margin-right: 100px;
-     list-style-type: none;
-}
+  .navigationLogo {
+    margin-left: 50px;
+    width: 10%;
+    height: 10%;
+  }
 
-.navigationItem {
+  .navigationItems {
+    flex-direction: row;
+    margin-right: 100px;
+    list-style-type: none;
+  }
+
+  .navigationItem {
     color: var(--dark-grey);
     margin: 10px;
-   }
+  }
 
-   .secondTitle {
+  .secondTitle {
     width: 50%;
-   }
+  }
 
-   .index {
-    width: 50%;
-   }
-
-   .program {
-    text-align: center;
-   }
-
-   .schedule {
+  .schedule {
     flex-direction: row;
     margin: 0;
-   }
+  }
 
-   .scheduleItems {
+  .scheduleItems {
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 225px;
     margin-bottom: 10px;
-   }
+  }
 
-   .scheduleTitle {
-margin-top: 10px;
-   }
+  .scheduleTitle {
+    margin-top: 10px;
+  }
 
-   .scheduleItemImage {
+  .scheduleItemImage {
     margin-top: 5px;
-   }
+  }
 
-   .scheduleIndex {
+  .scheduleIndex {
     margin-top: -10px;
-   }
+  }
 
-   .joinButton {
+  .joinButton {
     display: none;
-   }
-   .wholeProgram {
+  }
+
+  .wholeProgram {
     color: var(--dark-grey);
     display: flex;
     margin-left: 80px;
-   }
+  }
 
-   .featuredSpeakers {
-align-items: center;
-margin-left: 10%;
-   }
+  .featuredSpeakers {
+    align-items: center;
+    margin-left: 10%;
+  }
 
-   .featuredTitle {
+  .featuredTitle {
     font-size: smaller;
-   }
+  }
 
-   .speakerArea {
+  .speakerArea {
     flex-direction: row;
-   }
+  }
 
-   .speakerInfo {
-
-   }
-
-   .partnerHome {
+  .partnerHome {
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: var(--dark-grey);
     margin-top: 20px;
     width: 100%;
-   }
+  }
 
-   .partnersList {
-align-items: center;
-justify-content: space-evenly;
-   }
+  .partnersList {
+    align-items: center;
+    justify-content: space-evenly;
+  }
 
-   .partnerImage {
+  .partnerImage {
     width: 10%;
     height: 10%;
-   }
+  }
 
-   .companyHome {
+  .companyHome {
     display: flex;
     margin-top: 50px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   }
+  }
 
-   .companyImage {
-    width: 20%;
-    height: 20%;
-    margin-left: 150px;
-   }
-
-   .companyIndex {
+  .companyIndex {
     color: #414246;
     margin-right: 250px;
     font-size: 15px;
     margin-left: 30px;
-   }
+  }
 
-   /* about page */
-   .indexAbout {
+  /* about page */
+  .indexAbout {
     width: 80%;
-   }
+  }
 
-   .eventImage {
+  .eventImage {
     flex-direction: row;
     align-items: center;
     margin-bottom: 10px;
-   }
+  }
 
-   .golcuk {
+  .golcuk {
     margin-right: 10px;
     margin-top: 10px;
-   
+  }
 
-   }
-
-   .zonguldak {
-    
-    
-   }
-
-   .imageLayout {
+  .imageLayout {
     height: 100px;
     width: 300px;
-   }
+  }
 
-   .partner {
+  .partner {
     display: none;
-   }
+  }
 
-   .company {
+  .company {
     background-color: #272a31;
     margin-top: 80px;
-   }
+  }
 
-.companyImage {
-    width:  10%;
-    height: 10%;
-}
+  .companyImage {
+    width: 20%;
+    height: 20%;
+    margin-left: 150px;
+  }
 
-
-   .header {
+  .header {
     margin-left: 10%;
-   }
+  }
 
-   .index {
+  .index {
     margin-left: 10%;
-   }
-   
-   .program {
+    width: 50%;
+  }
+
+  .program {
     margin-left: 10%;
-   }
+    text-align: center;
+  }
 }
