@@ -66,6 +66,12 @@ border-radius: 5ch;
 color: var(--white);
  width: 90%;
     height: 90%;
+    text-align: center;
+}
+
+.mainHr {
+    width: 20%;
+    color: var(--orange);
 }
 
 .schedule {
@@ -109,13 +115,7 @@ color: var(--white);
     height: 90%;
 }
 
-.featuredSpeakers {
-      justify-content: center;
-}
 
-.featuredTitle {
-    color: var(--dark-grey);
-}
 
 /* about section */
 .headerAbout {
@@ -278,7 +278,7 @@ width: 90%;
     background-repeat: no-repeat;
     flex-direction: row;
     justify-content: space-between;
-    /* display: none; */
+    display: none;
 }
 
 .popUpItems {
@@ -293,7 +293,7 @@ width: 90%;
     margin: 10px;
 }
 
-.popUpCencel {
+.popUpCancel {
     width: 20px;
     height: 20px;
     color: var(--white);
@@ -314,6 +314,64 @@ width: 90%;
 }
 
 .partnerHome {display: none;}
+
+/* speakers */
+
+.featuredSpeakers {
+    flex-direction: column;
+    align-items: center;
+}
+
+.featuredTitle {
+  color: var(--dark-grey);
+  width: 40%;
+}
+
+.hrFeaturedTitle { 
+    width: 40%;
+    color: var(--orange);
+}
+
+.speakerArea {
+    flex-direction: column;
+}
+
+.hrSpeaker {
+    width: 40px;
+    color: var(--orange);
+}
+
+.eachSpeaker {
+    flex-direction: row;
+    text-align: center;
+    margin: 10px;
+}
+
+.speakerInfo {
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+}
+
+.speakerName {
+    font-size: larger;
+    color: var(--dark-grey);
+}
+
+.speakerTitle {
+    font-size: large;
+    color: var(--orange);
+}
+
+.speakerTopic {
+    font-size: medium;
+    color: var(--dark-grey);
+}
+
+.speakersImages {
+    width: 150px;
+    height: 200px;
+}
 
 /* ------------Desktop Version----------- */
 /* home page */
@@ -395,10 +453,19 @@ margin-top: 10px;
 
    .featuredSpeakers {
 align-items: center;
+margin-left: 10%;
    }
 
    .featuredTitle {
-    
+    font-size: smaller;
+   }
+
+   .speakerArea {
+    flex-direction: row;
+   }
+
+   .speakerInfo {
+
    }
 
    .partnerHome {
@@ -438,6 +505,7 @@ justify-content: space-evenly;
     color: #414246;
     margin-right: 250px;
     font-size: 15px;
+    margin-left: 30px;
    }
 
    /* about page */
@@ -482,8 +550,16 @@ justify-content: space-evenly;
     height: 10%;
 }
 
-   .companyIndex {
-    color: white;
-    margin-left: 30px;
+
+   .header {
+    margin-left: 10%;
+   }
+
+   .index {
+    margin-left: 10%;
+   }
+   
+   .program {
+    margin-left: 10%;
    }
 }

@@ -1,26 +1,9 @@
-// const speakers = [
-//   {
-//     speakersImages: ['bersoy.webp', 'chuck_palahniuk_kapak_2-620x375.jpg'],
-//     speakersName: ['Bülent Ersoy', 'Chuck Palahniuk'],
-//     speakersTitle: ['Turkish Diva', 'Writer the Fight Club'],
-//     speakersTopic: ['How similar fantasy literature and fantasy music', 'A different look into Middle-earth'],
-//   },
-// ];
-
-// document.getElementById('hamburgericon').onclick = () => {
-// document.getElementById('speakerImage').src = speakers[0].speakerImages[0];
-// document.getElementById('speakerName').innerHTML = speakers[0].speakersName[0];
-// document.getElementById('speakerTitle').innerHTML = speakers[0].speakersTitle[0];
-// document.getElementById('speakerTopic').innerHTML = speakers[0].speakersTopic[0];
-// }
-
-// popUp
-const popUp = document.getElementById('popUP');
+const popUp = document.querySelector('.popUp');
 const hamburger = document.querySelector('.hamburger');
 const popUpCancel = document.querySelector('.popUpCancel');
 
 hamburger.addEventListener('click', () => {
-  popUp.classList.remove('hidden');
+  popUp.classList.add('active');
   popUp.style.display = 'flex';
 });
 
@@ -29,7 +12,49 @@ function closePopUp() {
   popUp.style.display = 'none';
 }
 
-const popUpItem = document.querySelector('.popUpItem');
+popUpCancel.addEventListener('click', closePopUp);
+
+const popUpItem = document.querySelector('.popUpItems');
 
 popUpItem.addEventListener('click', closePopUp);
-popUpCancel.addEventListener('click', closePopUp);
+
+// speakers----
+
+const speakerArea = document.querySelector('.speakerArea');
+
+const speakers = [
+  {
+    speakersImages: 'BE.jpg',
+    speakersName: 'Bülent Ersoy',
+    speakersTitle: 'Turkish Diva',
+    speakersTopic: 'How similar fantasy literature and fantasy music',
+  },
+  {
+    speakersImages: 'Chuk.jpeg',
+    speakersName: 'Chuck Palahniuk',
+    speakersTitle: 'Writer the Fight Club',
+    speakersTopic: 'A different look into Middle-earth',
+  },
+];
+
+speakers.forEach((speaker) => {
+  const newSpeaker = document.createElement('div');
+
+  newSpeaker.classList.add('featuredSpeaker');
+
+  newSpeaker.innerHTML = `
+  <div class="eachSpeaker flex">
+    <div class="speakerImage">
+     <img class="speakersImages" src='${speaker.speakersImages}' alt=${speaker.speakersName}>
+    </div>
+    <div class="speakerInfo">
+    <h4 class="speakerName">${speaker.speakersName}</h4>
+    <h5 class="speakerTitle">${speaker.speakersTitle}</h5>
+    <hr class="hrSpeaker"/>
+    <p class="speakerTopic">${speaker.speakersTopic}</p>
+    </div>
+    </div>
+     `;
+
+  speakerArea.appendChild(newSpeaker);
+});
