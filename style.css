@@ -182,15 +182,21 @@ main {
 
 .eventImage {
   flex-direction: column;
+  width: 120%;
+height: 300px;
+margin-left: 20%
 }
 
 .golcuk {
-  background-image: url(golcuk.jpeg);
+  background-image: url(golcuk.webp);
   flex-direction: column;
   align-content: center;
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   width: 90%;
   height: 90%;
+ 
+  /* background-size: 300px 100px; */
 }
 
 .zonguldak {
@@ -198,13 +204,16 @@ main {
   flex-direction: column;
   align-content: center;
   margin-top: 10px;
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   width: 90%;
   height: 90%;
 }
 
 .imageLayout {
-  background-color: rgba(236, 83, 66, 0.58);
+  background-color: rgba(175, 25, 8, 0.58);
+  width: 100%;
+  height: 100%;
 }
 
 .eventTitle {
@@ -217,6 +226,7 @@ main {
 
 .eventIndex {
   color: var(--white);
+  margin-top: 10%;
 }
 
 .partner {
@@ -224,12 +234,19 @@ main {
   text-align: center;
   background-color: var(--dark-grey);
   margin-top: 20px;
-  width: 100%;
+  width: 115%;
   display: flex;
+  margin-left: -15px;
+}
+.hrPartner {
+  color: var(--orange);
+  width: 5%;
+  margin-top: -10px;
 }
 
 .partnerTitle {
   color: var(--white);
+  font-size: medium;
 }
 
 .partnersList {
@@ -255,8 +272,8 @@ main {
 }
 
 .companyImage {
-  width: 20%;
-  height: 20%;
+  width: 10%;
+  height: 10%;
   margin-left: 50px;
 }
 
@@ -460,7 +477,18 @@ main {
     text-align: center;
     background-color: var(--dark-grey);
     margin-top: 20px;
-    width: 100%;
+    width: 115%;
+    margin-left: -10px;
+  }
+
+  .partnerTitle {
+color:var(--grey)
+  }
+
+  .hrPartner {
+    color:#ec5242;
+    width: 5%;
+    margin-top: -10px;
   }
 
   .partnersList {
@@ -482,7 +510,7 @@ main {
   }
 
   .companyIndex {
-    color: #414246;
+    color: var(--grey);
     margin-right: 250px;
     font-size: 15px;
     margin-left: 30px;
@@ -493,10 +521,19 @@ main {
     width: 80%;
   }
 
+  .eventTitle {
+    font-size: 40px;
+  }
+
+  .eventDescription{
+    font-size: 30px;
+  }
+
   .eventImage {
     flex-direction: row;
     align-items: center;
     margin-bottom: 10px;
+    margin-right: 7%;
   }
 
   .golcuk {
@@ -505,8 +542,8 @@ main {
   }
 
   .imageLayout {
-    height: 100px;
-    width: 300px;
+    width: 100%;
+    height: 100%;
   }
 
   .partner {
@@ -516,12 +553,15 @@ main {
   .company {
     background-color: #272a31;
     margin-top: 80px;
+    height: 200px;
+    margin-left: -20px;
+width: 115%;
   }
 
   .companyImage {
-    width: 20%;
-    height: 20%;
-    margin-left: 150px;
+    width: 15%;
+    height: 150px;
+    margin-left: 200px;
   }
 
   .header {
