@@ -183,8 +183,8 @@ main {
 .eventImage {
   flex-direction: column;
   width: 120%;
-height: 300px;
-margin-left: 20%
+  height: 300px;
+  margin-left: 20%;
 }
 
 .golcuk {
@@ -195,7 +195,7 @@ margin-left: 20%
   background-size: 100% 100%;
   width: 90%;
   height: 90%;
- 
+
   /* background-size: 300px 100px; */
 }
 
@@ -238,6 +238,7 @@ margin-left: 20%
   display: flex;
   margin-left: -15px;
 }
+
 .hrPartner {
   color: var(--orange);
   width: 5%;
@@ -336,15 +337,18 @@ margin-left: 20%
 .featuredSpeakers {
   flex-direction: column;
   align-items: center;
+  margin: 10px;
+  padding: 10px;
 }
 
 .featuredTitle {
   color: var(--dark-grey);
   width: 40%;
+  text-align: center;
 }
 
 .hrFeaturedTitle {
-  width: 40%;
+  width: 7%;
   color: var(--orange);
 }
 
@@ -367,7 +371,7 @@ margin-left: 20%
 .speakerInfo {
   flex-direction: column;
   text-align: center;
-  width: 40%;
+  width: 100%;
 }
 
 .speakerName {
@@ -387,11 +391,36 @@ margin-left: 20%
 
 .speakersImages {
   width: 150px;
-  height: 200px;
+  height: 150px;
+}
+
+.topNavigationBar {
+  display: none;
 }
 
 /* ------------Desktop Version----------- */
 @media screen and (min-width: 768px) {
+  .topNavigationBar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #414246;
+    width: 110%;
+  }
+
+  .topNavigationItems {
+    margin-right: 20%;
+    flex-direction: row;
+  }
+
+  .topNavigationImage {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .topNavigationItem {
+    margin: 5px;
+  }
+
   .hamburger {
     display: none;
   }
@@ -399,9 +428,6 @@ margin-left: 20%
   .eachSpeaker {
     flex-direction: row;
     text-align: center;
-    margin: 10px;
-    width: 60%;
-    border: solid;
   }
 
   .navigationBar {
@@ -469,15 +495,23 @@ margin-left: 20%
 
   .featuredSpeakers {
     align-items: center;
-    margin-left: 10%;
+    width: 100%;
+    margin: 10%;
   }
 
   .featuredTitle {
+    font-size: larger;
+    margin-bottom: 60px;
+  }
+
+  .featuredSpeaker {
     font-size: smaller;
+    width: 50%;
   }
 
   .speakerArea {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .partnerHome {
@@ -491,11 +525,11 @@ margin-left: 20%
   }
 
   .partnerTitle {
-color:var(--grey)
+    color: var(--grey);
   }
 
   .hrPartner {
-    color:#ec5242;
+    color: #ec5242;
     width: 5%;
     margin-top: -10px;
   }
@@ -503,6 +537,7 @@ color:var(--grey)
   .partnersList {
     align-items: center;
     justify-content: space-evenly;
+    width: 100%;
   }
 
   .partnerImage {
@@ -534,7 +569,7 @@ color:var(--grey)
     font-size: 40px;
   }
 
-  .eventDescription{
+  .eventDescription {
     font-size: 30px;
   }
 
@@ -564,7 +599,7 @@ color:var(--grey)
     margin-top: 80px;
     height: 200px;
     margin-left: -20px;
-width: 115%;
+    width: 115%;
   }
 
   .companyImage {
