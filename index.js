@@ -35,6 +35,30 @@ const speakers = [
     speakersTitle: 'Writer the Fight Club',
     speakersTopic: 'A different look into Middle-earth',
   },
+  {
+    speakersImages: 'semihS.jpg',
+    speakersName: 'Semih Saygıner',
+    speakersTitle: 'Mr. Magic',
+    speakersTopic: 'How help power rings to understand the physic',
+  },
+  {
+    speakersImages: 'raskolnikov.jpg',
+    speakersName: 'Rodion Romanoviç Raskolnikov',
+    speakersTitle: 'Old Galley Prisoner',
+    speakersTopic: 'How looks Middle-earth from ship window',
+  },
+  {
+    speakersImages: 'hulk.jpg',
+    speakersName: 'Hulk',
+    speakersTitle: 'Hulk',
+    speakersTopic: 'I would like to live in Middle-earth',
+  },
+  {
+    speakersImages: 'Donald_Trump_official_portrait.jpg',
+    speakersName: 'Donald Trump',
+    speakersTitle: 'The Blond Guy',
+    speakersTopic: 'How I managed the USA if I read the LOTR before',
+  },
 ];
 
 speakers.forEach((speaker) => {
