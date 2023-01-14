@@ -15,6 +15,11 @@ body {
   overflow-x: hidden;
 }
 
+.companyName {
+  color: #ec5242;
+  border: salmon;
+}
+
 .date {
   font-weight: bold;
 }
@@ -89,7 +94,10 @@ main {
 
 .mainHr {
   width: 7%;
-  color: var(--orange);
+  height: 2px;
+  background-color: var(--orange);
+  margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .schedule {
@@ -118,10 +126,11 @@ main {
   width: 90%;
   height: 90%;
   margin-top: 30px;
+  margin-left: 25px;
 }
 
 .scheduleIndex {
-  color: white;
+  color: var(--grey);
   margin-left: 5px;
   width: 90%;
   height: 90%;
@@ -256,9 +265,10 @@ main {
 }
 
 .hrPartner {
-  color: var(--orange);
+  height: 2px;
   width: 5%;
   margin-top: -10px;
+  background-color: var(--orange);
 }
 
 .partnerTitle {
@@ -275,9 +285,9 @@ main {
 }
 
 .partnerImage {
-  width: 60px;
-  height: 30px;
-  margin: 10px;
+  width: 100px;
+  height: 80px;
+  margin: 10px 50px 10px 50px;
   text-align: center;
 }
 
@@ -313,7 +323,7 @@ main {
   height: 102vh;
   position: fixed;
   width: 100%;
-  margin: -12px 0 0 -8px;
+  margin: -40px 0 0 -8px;
 }
 
 .popUpItems {
@@ -375,7 +385,8 @@ main {
 
 .hrFeaturedTitle {
   width: 16%;
-  color: var(--orange);
+  height: 2px;
+  background-color: var(--orange);
 }
 
 .speakerArea {
@@ -385,7 +396,8 @@ main {
 
 .hrSpeaker {
   width: 40px;
-  color: var(--orange);
+  height: 2px;
+  background-color: var(--orange);
 }
 
 .eachSpeaker {
@@ -492,7 +504,7 @@ main {
 
   .navigationItem {
     color: var(--dark-grey);
-    margin: 10px;
+    margin: 5px;
   }
 
   .secondTitle {
@@ -572,9 +584,10 @@ main {
   }
 
   .hrPartner {
-    color: #ec5242;
-    width: 5%;
-    margin-top: -10px;
+    height: 2px;
+    width: 3%;
+    margin-top: 0;
+    background-color: var(--orange);
   }
 
   .partnersList {
@@ -585,7 +598,8 @@ main {
 
   .partnerImage {
     width: 10%;
-    height: 10%;
+    height: 21%;
+    margin: 10px;
   }
 
   .companyHome {
@@ -597,10 +611,23 @@ main {
   }
 
   .companyIndex {
-    color: var(--dark-grey);
-    margin-right: 250px;
+    color: var(--grey);
+    margin-right: 35%;
     font-size: 15px;
     margin-left: 30px;
+  }
+
+  .companyIndexHome {
+    color: var(--dark-grey);
+    margin-right: 35%;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+
+  .companyName {
+    color: #ec5242;
+    border: solid salmon;
+    border-color: #ec5242;
   }
 
   /* about page */
@@ -645,9 +672,9 @@ main {
   }
 
   .companyImage {
-    width: 15%;
-    height: 150px;
-    margin-left: 200px;
+    width: 10%;
+    height: 100px;
+    margin-left: 250px;
   }
 
   .index {
