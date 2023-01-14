@@ -38,6 +38,11 @@ body {
   margin: 5%;
 }
 
+.hamburgericon{
+margin: 30px;
+color: #07ff0c;
+}
+
 .scheduleItemImage {
   height: 20%;
   margin-top: 20px;
