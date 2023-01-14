@@ -21,7 +21,7 @@ body {
 }
 
 .aboutBackground {
-  background-image: url(Minas_Tirith.htm);
+  background-image: url(lorien.jpg);
   background-size: contain;
 }
 
@@ -47,7 +47,7 @@ body {
   flex-direction: column;
   width: 100%;
   height: 90%;
-  margin-left: 10%;
+
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 50px;
@@ -253,7 +253,7 @@ width: 90%;
 }
 
 .imageLayout {
-  background-color: rgba(185, 245, 202, 0.58);
+  background-color: rgb(130 33 21 / 58%);
   width: 100%;
   height: 100%;
   margin: 0 auto;
