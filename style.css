@@ -57,12 +57,14 @@ h1 {
   color: var(--green);
   width: 90%;
   height: 90%;
+  margin-left: 10%;
 }
 
 .secondTitle {
   color: var(--green);
   width: 90%;
   height: 90%;
+  margin-left: 10%;
 }
 
 .index {
