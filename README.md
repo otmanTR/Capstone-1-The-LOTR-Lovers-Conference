@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-URL:https://otmantr.github.io/Capstone-1.-The-LOTR-Lovers-Conference/
+URL:https://otmantr.github.io/Capstone-1-The-LOTR-Lovers-Conference/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

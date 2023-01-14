@@ -13,6 +13,7 @@
 body {
   color: var(--grey);
   overflow-x: hidden;
+  font-family: Lato;
 }
 
 .companyName {
@@ -565,9 +566,10 @@ main {
   }
 
   .wholeProgram {
-    color: var(--grey);
+    color: white;
     display: flex;
-    margin-left: 80px;
+    text-decoration: underline;
+    text-decoration-color: white;
   }
 
   .featuredSpeakers {
