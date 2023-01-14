@@ -4,21 +4,30 @@
 
 :root {
   --black: #272a31;
-  --orange: #ec5242;
+  --green: #07ff0c;
   --grey: #d3d3d3;
   --dark-grey: #414246;
   --white: #f9f9f9;
 }
 
 body {
-  color: var(--grey);
+  color:var(--black);
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
 }
 
+.backgroundImage {
+  background-image: url(lotr.jpg);
+}
+
+.aboutBackground {
+  background-image: url(ayrıkvadi.jpg);
+  background-size: contain;
+}
+
 .companyName {
-  color: #ec5242;
-  border: salmon;
+  color: var(--green);
+  border:var(--green);
 }
 
 .date {
@@ -26,7 +35,7 @@ body {
 }
 
 .hamburger {
-  margin-top: 5%;
+  margin: 5%;
 }
 
 .scheduleItemImage {
@@ -36,41 +45,42 @@ body {
 
 .header {
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   height: 90%;
-  background-image: url(gondor.webp);
+
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 50px;
 }
 
 h1 {
-  color: var(--orange);
+  color: var(--green);
   width: 90%;
   height: 90%;
 }
 
 .secondTitle {
-  color: var(--orange);
+  color: var(--green);
   width: 90%;
   height: 90%;
 }
 
 .index {
   flex-direction: column;
-  color: var(--dark-grey);
+  color: var(--white);
   width: 90%;
   height: 90%;
-  margin-bottom: 70px;
+  margin: 20px 0 50px 10%;
+
 }
 
 main {
-  width: 90%;
+  width: 100%;
   height: 90%;
 }
 
 .description {
-  border-color: #ec5242;
+  color: white;
   border-radius: 5ch;
   width: 90%;
   height: 90%;
@@ -79,9 +89,7 @@ main {
 .program {
   flex-direction: column;
   align-items: center;
-  background-color: var(--black);
-  background-image: url(programBgImage.png);
-  width: 117%;
+  width: 100%;
   height: 90%;
   margin-left: -8px;
 }
@@ -96,7 +104,7 @@ main {
 .mainHr {
   width: 7%;
   height: 2px;
-  background-color: var(--orange);
+  background-color: var(--green);
   margin-bottom: 30px;
   margin-top: 0;
 }
@@ -107,14 +115,16 @@ main {
   list-style-type: none;
   width: 90%;
   height: 90%;
+  
 }
 
 .scheduleItems {
-  background-color: rgb(98 97 97 / 39%);
+  
   flex-direction: row;
   margin: 3px;
   width: 90%;
   height: 90%;
+ 
 }
 
 .scheduleItems:hover {
@@ -123,7 +133,7 @@ main {
 
 .scheduleTitle {
   justify-content: flex-start;
-  color: var(--orange);
+  color: var(--green);
   width: 90%;
   height: 90%;
   margin-top: 30px;
@@ -131,14 +141,14 @@ main {
 }
 
 .scheduleIndex {
-  color: var(--grey);
+  color: var(--white);
   margin-left: 5px;
   width: 90%;
   height: 90%;
 }
 
 .joinButton {
-  background-color: var(--orange);
+  background-color:rgb(57, 56, 56);
   color: var(--white);
   margin-bottom: 30px;
   width: 30%;
@@ -159,7 +169,7 @@ main {
 .indexAbout {
   align-items: center;
   flex-direction: column;
-  color: var(--dark-grey);
+  color: var(--white);
   width: 90%;
   height: 90%;
   margin: auto;
@@ -174,25 +184,32 @@ main {
 
 .commonLogo {
   flex-direction: column;
-  align-items: center;
-  color: var(--dark-grey);
-  width: 90%;
+  align-items: center; 
+width: 90%;
   height: 90%;
   margin: auto;
   text-align: center;
 }
 
 .mellonLogo {
-  border: #272a31 10px;
+  border: var(--black) 10px;
   width: 90%;
   height: 90%;
+}
+
+.logoDescription {
+  color: white;
+}
+
+.logoTitle {
+  color: rgb(231, 219, 242);
 }
 
 .pastEvents {
   flex-direction: column;
   align-items: center;
   align-content: center;
-  color: var(--dark-grey);
+  color: var(--black);
   width: 90%;
   height: 90%;
   margin: auto;
@@ -209,6 +226,7 @@ main {
   margin: 10px;
   width: 90%;
   height: 90%;
+  color: white;
 }
 
 .eventImage {
@@ -231,12 +249,11 @@ main {
   background-size: 100% 100%;
   width: 100%;
   height: 90%;
-  margin-right: 70px;
-  margin-top: 20px;
+  margin: 5% 0;
 }
 
 .imageLayout {
-  background-color: rgba(175, 25, 8, 0.58);
+  background-color: rgba(185, 245, 202, 0.58);
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -258,9 +275,9 @@ main {
 .partner {
   flex-direction: column;
   text-align: center;
-  background-color: var(--dark-grey);
+  background-color: var(--black);
   margin-top: 20px;
-  width: 105%;
+  width: 100%;
   margin-left: -8px;
   display: flex;
 }
@@ -268,9 +285,8 @@ main {
 .partnerAbout {
   flex-direction: column;
   text-align: center;
-  background-color: var(--dark-grey);
-  margin-top: 20px;
-  width: 117%;
+  margin-top: 10%;
+  width: 102%;
   margin-left: -8px;
   display: flex;
 }
@@ -279,7 +295,7 @@ main {
   height: 2px;
   width: 5%;
   margin-top: -10px;
-  background-color: var(--orange);
+  background-color: var(--green);
 }
 
 .partnerTitle {
@@ -323,7 +339,7 @@ main {
 }
 
 .companyIndex {
-  color: var(--dark-grey);
+  color: var(--white);
   margin: 10px;
   font-size: 10px;
   margin-right: 150px;
@@ -332,7 +348,7 @@ main {
 
 /* popUp */
 .popUp {
-  background-color: rgba(236, 83, 66, 1);
+  background-color: rgb(57, 56, 56);
   background-size: cover;
   background-repeat: no-repeat;
   flex-direction: row;
@@ -365,7 +381,7 @@ main {
 
 .popUpCancel {
   color: var(--white);
-  margin-right: 5%;
+  margin-right: 20%;
   margin-top: 5%;
   font-size: 28px;
 }
@@ -396,7 +412,7 @@ main {
 }
 
 .featuredTitle {
-  color: var(--dark-grey);
+  color: var(--grey);
   width: 40%;
   text-align: center;
 }
@@ -404,7 +420,7 @@ main {
 .hrFeaturedTitle {
   width: 16%;
   height: 2px;
-  background-color: var(--orange);
+  background-color: var(--green);
 }
 
 .speakerArea {
@@ -415,7 +431,7 @@ main {
 .hrSpeaker {
   width: 40px;
   height: 2px;
-  background-color: var(--orange);
+  background-color: var(--dark-grey);
 }
 
 .eachSpeaker {
@@ -432,17 +448,17 @@ main {
 
 .speakerName {
   font-size: larger;
-  color: var(--dark-grey);
+  color: #000000;
 }
 
 .speakerTitle {
   font-size: large;
-  color: var(--orange);
+  color: var(--green);
 }
 
 .speakerTopic {
   font-size: medium;
-  color: var(--dark-grey);
+  color: var(--white);
 }
 
 .speakersImages {
@@ -459,14 +475,7 @@ main {
   .topNavigationBar {
     display: flex;
     justify-content: flex-end;
-    background-color: #414246;
-    width: 106%;
-    margin-left: -10px;
-    margin-top: -10px;
-  }
-
-  .header {
-    margin-left: 80px;
+    width: 100%;
   }
 
   .topNavigationItems {
@@ -475,6 +484,7 @@ main {
     display: flex;
     align-items: center;
     gap: 1rem;
+    color: wheat;
   }
 
   .topNavigationImage {
@@ -505,9 +515,7 @@ main {
   }
 
   .zonguldak {
-    margin-top: 0;
-    margin-right: 0;
-    margin-left: 20px;
+    margin: 5% 5%;
   }
 
   .navigationLogo {
@@ -523,8 +531,13 @@ main {
   }
 
   .navigationItem {
-    color: var(--dark-grey);
-    margin: 5px;
+    color: var(--white);
+    margin: 5px 0 5px 10px;
+    padding: 10px;
+  }
+
+  .navigationItems a {
+    text-decoration: none;
   }
 
   .secondTitle {
@@ -566,15 +579,13 @@ main {
   }
 
   .wholeProgram {
-    color: white;
+    color: var(--white);
     display: flex;
-    text-decoration: underline;
-    text-decoration-color: white;
   }
 
   .featuredSpeakers {
     align-items: center;
-    width: auto;
+    width: 100%; 
   }
 
   .featuredTitle {
@@ -596,9 +607,8 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: var(--dark-grey);
     margin-top: 20px;
-    width: 117%;
+    width: 100%;
     margin-left: -10px;
   }
 
@@ -606,11 +616,15 @@ main {
     color: var(--grey);
   }
 
+  .partnerAbout {
+    display: none;
+  }
+
   .hrPartner {
     height: 2px;
     width: 3%;
     margin-top: 0;
-    background-color: var(--orange);
+    background-color: var(--green);
   }
 
   .partnersList {
@@ -634,7 +648,7 @@ main {
   }
 
   .companyIndex {
-    color: var(--grey);
+    color: var(--white);
     margin-right: 35%;
     font-size: 15px;
     margin-left: 30px;
@@ -642,16 +656,16 @@ main {
   }
 
   .companyIndexHome {
-    color: var(--dark-grey);
+    color: var(--white);
     margin-right: 35%;
     font-size: 15px;
     margin-left: 30px;
   }
 
   .companyName {
-    color: #ec5242;
-    border: solid salmon;
-    border-color: #ec5242;
+    color:var(--black);
+    border:var(--green) solid;
+    border-color: var(--green);
   }
 
   /* about page */
@@ -688,7 +702,7 @@ main {
   }
 
   .company {
-    background-color: #272a31;
+    background-color:var(--black);
     margin-top: 80px;
     height: 200px;
     margin-left: -20px;
@@ -696,11 +710,10 @@ main {
   }
 
   .companyAbout {
-    background-color: #272a31;
     margin-top: 80px;
     height: 200px;
     margin-left: -20px;
-    width: 120%;
+    width: 100%;
   }
 
   .companyImage {
@@ -708,6 +721,7 @@ main {
     height: 100px;
     margin-left: 15%;
     margin-top: 40px;
+    margin-bottom: 50px;
   }
 
   .index {
