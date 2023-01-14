@@ -21,7 +21,7 @@ body {
 }
 
 .aboutBackground {
-  background-image: url(ayrıkvadi.jpg);
+  background-image: url(Minas_Tirith.htm);
   background-size: contain;
 }
 
@@ -47,7 +47,7 @@ body {
   flex-direction: column;
   width: 100%;
   height: 90%;
-
+  margin-left: 10%;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 50px;
