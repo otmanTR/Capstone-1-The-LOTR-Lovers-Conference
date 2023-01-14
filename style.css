@@ -1,0 +1,721 @@
+.flex {
+  display: flex;
+}
+
+:root {
+  --black: #272a31;
+  --orange: #ec5242;
+  --grey: #d3d3d3;
+  --dark-grey: #414246;
+  --white: #f9f9f9;
+}
+
+body {
+  color: var(--grey);
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+.companyName {
+  color: #ec5242;
+  border: salmon;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.hamburger {
+  margin-top: 5%;
+}
+
+.scheduleItemImage {
+  height: 20%;
+  margin-top: 20px;
+}
+
+.header {
+  flex-direction: column;
+  width: 90%;
+  height: 90%;
+  background-image: url(gondor.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+h1 {
+  color: var(--orange);
+  width: 90%;
+  height: 90%;
+}
+
+.secondTitle {
+  color: var(--orange);
+  width: 90%;
+  height: 90%;
+}
+
+.index {
+  flex-direction: column;
+  color: var(--dark-grey);
+  width: 90%;
+  height: 90%;
+  margin-bottom: 70px;
+}
+
+main {
+  width: 90%;
+  height: 90%;
+}
+
+.description {
+  border-color: #ec5242;
+  border-radius: 5ch;
+  width: 90%;
+  height: 90%;
+}
+
+.program {
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--black);
+  background-image: url(programBgImage.png);
+  width: 117%;
+  height: 90%;
+  margin-left: -8px;
+}
+
+.mainProgram {
+  color: var(--white);
+  width: 90%;
+  height: 90%;
+  text-align: center;
+}
+
+.mainHr {
+  width: 7%;
+  height: 2px;
+  background-color: var(--orange);
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 90%;
+  height: 90%;
+}
+
+.scheduleItems {
+  background-color: rgb(98 97 97 / 39%);
+  flex-direction: row;
+  margin: 3px;
+  width: 90%;
+  height: 90%;
+}
+
+.scheduleItems:hover {
+  border: solid;
+}
+
+.scheduleTitle {
+  justify-content: flex-start;
+  color: var(--orange);
+  width: 90%;
+  height: 90%;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.scheduleIndex {
+  color: var(--grey);
+  margin-left: 5px;
+  width: 90%;
+  height: 90%;
+}
+
+.joinButton {
+  background-color: var(--orange);
+  color: var(--white);
+  margin-bottom: 30px;
+  width: 30%;
+  height: 60px;
+  margin-top: 30px;
+}
+
+/* about section */
+.headerAbout {
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.indexAbout {
+  align-items: center;
+  flex-direction: column;
+  color: var(--dark-grey);
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.email {
+  font-weight: bold;
+  width: 90%;
+  height: 90%;
+}
+
+.commonLogo {
+  flex-direction: column;
+  align-items: center;
+  color: var(--dark-grey);
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.mellonLogo {
+  border: #272a31 10px;
+  width: 90%;
+  height: 90%;
+}
+
+.pastEvents {
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  color: var(--dark-grey);
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.pastEventsTitle {
+  width: 90%;
+  height: 90%;
+  align-items: center;
+}
+
+.pastEventsDescription {
+  margin: 10px;
+  width: 90%;
+  height: 90%;
+}
+
+.eventImage {
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+}
+
+.golcuk {
+  background-image: url(golcuk.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 90%;
+}
+
+.zonguldak {
+  background-image: url(zonguldak.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 90%;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+
+.imageLayout {
+  background-color: rgba(175, 25, 8, 0.58);
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.eventTitle {
+  color: var(--white);
+}
+
+.eventDescription {
+  color: var(--white);
+}
+
+.eventIndex {
+  color: var(--white);
+  margin-top: 10%;
+}
+
+.partner {
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--dark-grey);
+  margin-top: 20px;
+  width: 105%;
+  margin-left: -8px;
+  display: flex;
+}
+
+.partnerAbout {
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--dark-grey);
+  margin-top: 20px;
+  width: 117%;
+  margin-left: -8px;
+  display: flex;
+}
+
+.hrPartner {
+  height: 2px;
+  width: 5%;
+  margin-top: -10px;
+  background-color: var(--orange);
+}
+
+.partnerTitle {
+  color: var(--white);
+  font-size: medium;
+}
+
+.partnersList {
+  margin: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.partnerImage {
+  width: 100px;
+  height: 80px;
+  margin: 10px 50px 10px 50px;
+  text-align: center;
+}
+
+.company {
+  margin-top: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.companyAbout {
+  margin-top: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.companyImage {
+  width: 10%;
+  height: 10%;
+  margin-left: 15%;
+}
+
+.companyIndex {
+  color: var(--dark-grey);
+  margin: 10px;
+  font-size: 10px;
+  margin-right: 150px;
+  width: 24%;
+}
+
+/* popUp */
+.popUp {
+  background-color: rgba(236, 83, 66, 1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: row;
+  justify-content: space-between;
+  display: none;
+  height: 102vh;
+  position: fixed;
+  width: 100%;
+  margin: -40px 0 0 -8px;
+}
+
+.popUpItems {
+  flex-direction: column;
+  list-style-type: none;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.popUpItems a {
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  margin: 20%;
+}
+
+.popItem {
+  color: white;
+  margin: 10px;
+}
+
+.popUpCancel {
+  color: var(--white);
+  margin-right: 5%;
+  margin-top: 5%;
+  font-size: 28px;
+}
+
+.navigationBar {
+  display: none;
+}
+
+.wholeProgram {
+  display: none;
+}
+
+.companyHome {
+  display: none;
+}
+
+.partnerHome {
+  display: none;
+}
+
+/* speakers */
+
+.featuredSpeakers {
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.featuredTitle {
+  color: var(--dark-grey);
+  width: 40%;
+  text-align: center;
+}
+
+.hrFeaturedTitle {
+  width: 16%;
+  height: 2px;
+  background-color: var(--orange);
+}
+
+.speakerArea {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.hrSpeaker {
+  width: 40px;
+  height: 2px;
+  background-color: var(--orange);
+}
+
+.eachSpeaker {
+  flex-direction: row;
+  text-align: center;
+  margin: 10px;
+}
+
+.speakerInfo {
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.speakerName {
+  font-size: larger;
+  color: var(--dark-grey);
+}
+
+.speakerTitle {
+  font-size: large;
+  color: var(--orange);
+}
+
+.speakerTopic {
+  font-size: medium;
+  color: var(--dark-grey);
+}
+
+.speakersImages {
+  width: 150px;
+  height: 150px;
+}
+
+.topNavigationBar {
+  display: none;
+}
+
+/* ------------Desktop Version----------- */
+@media screen and (min-width: 768px) {
+  .topNavigationBar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #414246;
+    width: 106%;
+    margin-left: -10px;
+    margin-top: -10px;
+  }
+
+  .header {
+    margin-left: 80px;
+  }
+
+  .topNavigationItems {
+    margin-right: 20%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .topNavigationImage {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .topNavigationItem {
+    margin: 5px;
+  }
+
+  .hamburger {
+    display: none;
+    margin: 20px;
+  }
+
+  .eachSpeaker {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .navigationBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+
+  .zonguldak {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 20px;
+  }
+
+  .navigationLogo {
+    margin-left: 50px;
+    width: 10%;
+    height: 10%;
+  }
+
+  .navigationItems {
+    flex-direction: row;
+    margin-right: 100px;
+    list-style-type: none;
+  }
+
+  .navigationItem {
+    color: var(--dark-grey);
+    margin: 5px;
+  }
+
+  .secondTitle {
+    width: 50%;
+  }
+
+  .schedule {
+    flex-direction: row;
+    margin: 0;
+    margin-right: 7%;
+  }
+
+  .scheduleItems {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 225px;
+    margin-bottom: 10px;
+  }
+
+  .scheduleItems:hover {
+    border: solid;
+  }
+
+  .scheduleTitle {
+    margin-top: 10px;
+  }
+
+  .scheduleItemImage {
+    margin-top: 20px;
+  }
+
+  .scheduleIndex {
+    margin-top: -70px;
+  }
+
+  .joinButton {
+    display: none;
+  }
+
+  .wholeProgram {
+    color: white;
+    display: flex;
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+
+  .featuredSpeakers {
+    align-items: center;
+    width: auto;
+  }
+
+  .featuredTitle {
+    font-size: larger;
+    margin-bottom: 60px;
+  }
+
+  .featuredSpeaker {
+    font-size: smaller;
+    width: 50%;
+  }
+
+  .speakerArea {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .partnerHome {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--dark-grey);
+    margin-top: 20px;
+    width: 117%;
+    margin-left: -10px;
+  }
+
+  .partnerTitle {
+    color: var(--grey);
+  }
+
+  .hrPartner {
+    height: 2px;
+    width: 3%;
+    margin-top: 0;
+    background-color: var(--orange);
+  }
+
+  .partnersList {
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+  }
+
+  .partnerImage {
+    width: 10%;
+    height: 21%;
+    margin: 10px;
+  }
+
+  .companyHome {
+    display: flex;
+    margin: 20px 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .companyIndex {
+    color: var(--grey);
+    margin-right: 35%;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+
+  .companyIndexHome {
+    color: var(--dark-grey);
+    margin-right: 35%;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+
+  .companyName {
+    color: #ec5242;
+    border: solid salmon;
+    border-color: #ec5242;
+  }
+
+  /* about page */
+  .indexAbout {
+    width: 80%;
+  }
+
+  .eventTitle {
+    font-size: 40px;
+  }
+
+  .eventDescription {
+    font-size: 30px;
+  }
+
+  .eventImage {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 7%;
+  }
+
+  .golcuk {
+    margin-left: 10%;
+  }
+
+  .imageLayout {
+    width: 100%;
+    height: 100%;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .company {
+    background-color: #272a31;
+    margin-top: 80px;
+    height: 200px;
+    margin-left: -20px;
+    width: 100%;
+  }
+
+  .companyAbout {
+    background-color: #272a31;
+    margin-top: 80px;
+    height: 200px;
+    margin-left: -20px;
+    width: 120%;
+  }
+
+  .companyImage {
+    width: 10%;
+    height: 100px;
+    margin-left: 15%;
+    margin-top: 40px;
+  }
+
+  .index {
+    margin-left: 10%;
+    width: 50%;
+  }
+
+  .program {
+    text-align: center;
+  }
+}
